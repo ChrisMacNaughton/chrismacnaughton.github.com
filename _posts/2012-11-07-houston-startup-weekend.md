@@ -17,3 +17,7 @@ I don't have any idea that I'd like to pitch but I'm looking forward to hearing 
 * Notebook
 * Pencil
 * Business Cards
+
+##What is StartupWeekend?
+
+StartupWeekend brings togetherdevelopers, marketers, and other startup enthusiasts together to create a new startup in 54 hours (Friday evening through Sunday evening).
