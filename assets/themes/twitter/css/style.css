@@ -68,4 +68,19 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
+.date{
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #66cc66;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dark-link a{
+  color: #666666;
+}
+.dark-link a:hover{
+  color: #2EA2CC;
+  text-decoration: none;
+}
