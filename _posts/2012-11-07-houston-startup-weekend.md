@@ -3,7 +3,7 @@ layout: post
 title: "Houston Startup Weekend"
 tagline: Nov. 9 - Nov. 11
 description: ""
-category:
+category: Uncategorized
 ---
 {% include JB/setup %}
 
