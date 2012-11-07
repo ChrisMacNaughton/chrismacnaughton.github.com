@@ -7,7 +7,6 @@
   {% include JB/analytics-providers/getclicky %}
 {% when "mixpanel" %}
   {% include JB/analytics-providers/mixpanel %}
-  {% include JB/analytics-providers/google %}
 {% when "custom" %}
   {% include custom/analytics %}
 {% endcase %}
