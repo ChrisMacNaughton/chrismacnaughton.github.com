@@ -1,0 +1,12 @@
+
+http://chrismacnaughton.com/sitemap.txt
+http://chrismacnaughton.com/atom.xml
+http://chrismacnaughton.com/blog.html
+http://chrismacnaughton.com/archive.html
+http://chrismacnaughton.com/resume.html
+http://chrismacnaughton.com/categories.html
+http://chrismacnaughton.com/index.html
+
+http://chrismacnaughton.com/2012/11/19/startup-weekend
+http://chrismacnaughton.com/2012/11/07/houston-startup-weekend
+http://chrismacnaughton.com/2012/11/05/starting-my-blog
