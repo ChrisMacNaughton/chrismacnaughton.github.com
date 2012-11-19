@@ -22,7 +22,7 @@ Finally, we got around to hearing the pitches...
 
 We broke into groups after voting on the different ideas and I chose to work with the team that became PermitMe.  We got started right away on making something that was usable while also planning the business side of things.
 
-[James Wroblewski]() built our social media presence and did some design work while I worked on the site.  Bruce, Bano, and Varun worked on business development and crafting the basic idea into a true product.
+[James Wroblewski](https://www.facebook.com/james.wroblewski.9) built our social media presence and did some design work while I worked on the site.  Bruce, Bano, and Varun worked on business development and crafting the basic idea into a true product.
 
 ##Saturday
 8AM - 12AM
