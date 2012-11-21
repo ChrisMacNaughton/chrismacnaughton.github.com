@@ -3,7 +3,7 @@ layout: resume
 title: "Resume"
 header: Resume
 description: "Chris MacNaughton's Resume"
-group: navigation
+//group: navigation
 ---
 #Chris MacNaughton
 - chmacnaughton@gmail.com
