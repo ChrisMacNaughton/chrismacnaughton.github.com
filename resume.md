@@ -19,7 +19,7 @@ I strive to be a quick learner and a highly capable worker.  In my free time I l
 ----
 ##Proficiency
 
-I have been writing code for several yearws now, most recently in PHP with a smattering of Ruby and Python.
+I have been writing code for several years now, most recently in PHP with a smattering of Ruby and Python.
 
 ----
 ##Experience
