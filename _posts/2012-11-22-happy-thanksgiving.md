@@ -3,6 +3,7 @@ layout: post
 title: "Happy Thanksgiving!"
 description: ""
 category: Uncategorized
+tags: []
 ---
 {% include JB/setup %}
 

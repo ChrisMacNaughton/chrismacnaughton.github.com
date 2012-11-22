@@ -3,6 +3,7 @@ layout: post
 title: "Managing Lifesize (and other videoconferencing) Devices"
 description: ""
 category: Videoconferencing
+tags: [SSH, videoconferencing]
 ---
 {% include JB/setup %}
 
