@@ -2,8 +2,7 @@
 layout: post
 title: "Managing Lifesize (and other videoconferencing) Devices"
 description: ""
-category:
-tags: []
+category: Videoconferencing
 ---
 {% include JB/setup %}
 

@@ -2,8 +2,7 @@
 layout: post
 title: "Rolling Ruby on Rails"
 description: ""
-category:
-tags: []
+category: Ruby
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,6 @@ layout: post
 title: "Startup Weekend"
 description: ""
 category: Startup Weekend
-tags: []
 ---
 {% include JB/setup %}
 
