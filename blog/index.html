@@ -1,4 +1,14 @@
-{% for post in paginator.posts %}
+---
+layout: page
+title: "Blog"
+header: Blog
+description: ""
+group: navigation
+---
+{% include JB/setup %}
+<div class="row">
+  <div class="span10">
+   {% for post in site.posts %}
 <div class="row">
   <div class="span1">
       <div class="date"><span>{{ post.date | date(post.date, '%b %d') }}</span></div>
@@ -11,3 +21,11 @@
   </div>
 </div>
 {% endfor %}
+
+  </div>
+  <div class="span2">
+    <p><a href="/archive.html">Archives</a></p>
+    <p><a href="/categories.html">Categories</a></p>
+  </div>
+</div>
+
