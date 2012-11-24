@@ -2,8 +2,8 @@
 layout: post
 title: "Offerpop - The Worst Voting App on Facebook"
 description: ""
-category:
-tags: []
+category: Development
+tags: ['Facebook', 'Rant']
 ---
 {% include JB/setup %}
 
