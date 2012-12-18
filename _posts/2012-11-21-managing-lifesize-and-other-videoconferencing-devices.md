@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Managing Lifesize (and other videoconferencing) Devices"
+title: "Managing Videoconferencing Devices"
 description: "Managing video conference devices sucks"
 category: Videoconferencing
 tags: [SSH, videoconferencing]
