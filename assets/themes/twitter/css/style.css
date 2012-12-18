@@ -11,7 +11,9 @@ html, body {
 .container > footer p {
   text-align: center; /* center align it with the container */
 }
-
+.cloudflare-badge {
+  margin: 0px auto;
+}
 /* The white background content wrapper */
 .content {
   background-color: #fff;
