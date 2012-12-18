@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Offerpop - The Worst Voting App on Facebook"
-description: ""
+description: "Takeaway: Don't use Offerpop!"
 category: Development
 tags: ['Facebook', 'Rant']
 ---

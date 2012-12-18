@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Happy Thanksgiving!"
-description: ""
+description: "Happy Thanksgiving!"
 category: Uncategorized
 tags: []
 ---

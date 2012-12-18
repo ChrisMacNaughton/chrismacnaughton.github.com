@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Houston's Got More Startups!"
-description: ""
+description: "Houston, Upcoming startup capitol?"
 category: Startups
 tags: []
 ---

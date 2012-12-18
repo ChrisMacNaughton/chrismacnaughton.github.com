@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rolling Ruby on Rails"
-description: ""
+description: "Rewriting a PHP app in Ruby on Rails"
 category: Ruby
 tags: [Ruby, Ruby on Rails]
 ---

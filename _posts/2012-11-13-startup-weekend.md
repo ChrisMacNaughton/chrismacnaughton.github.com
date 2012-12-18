@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Startup Weekend"
-description: ""
+description: "Startup Weekend was a blast!"
 category: Startup Weekend
 ---
 {% include JB/setup %}
