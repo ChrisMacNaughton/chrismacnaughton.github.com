@@ -4,6 +4,7 @@ title: "Managing Videoconferencing Devices"
 description: "Managing video conference devices sucks"
 category: Videoconferencing
 tags: [SSH, videoconferencing]
+blog: true
 ---
 {% include JB/setup %}
 

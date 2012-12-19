@@ -4,6 +4,7 @@ title: "SEO Early On, Part 1"
 description: "While starting a business, there are many things one must think of, from permitting to supply chain management; however, an oft overlooked thing is SEO!"
 category: SEO
 tags: [SEO, Startup]
+blog: true
 ---
 {% include JB/setup %}
 

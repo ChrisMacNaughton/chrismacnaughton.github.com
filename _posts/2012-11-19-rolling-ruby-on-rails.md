@@ -4,6 +4,7 @@ title: "Rolling Ruby on Rails"
 description: "Rewriting a PHP app in Ruby on Rails"
 category: Ruby
 tags: [Ruby, Ruby on Rails]
+blog: true
 ---
 {% include JB/setup %}
 

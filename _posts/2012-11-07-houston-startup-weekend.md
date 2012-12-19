@@ -4,6 +4,7 @@ title: "Houston Startup Weekend"
 tagline: Nov. 9 - Nov. 11
 description: "What is Houston Startup Weekend"
 category: Startup Weekend
+blog: true
 ---
 {% include JB/setup %}
 

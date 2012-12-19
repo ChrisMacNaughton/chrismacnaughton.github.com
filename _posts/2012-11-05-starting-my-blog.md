@@ -3,6 +3,7 @@ layout: post
 title: "Starting My Blog"
 description: "I'm Chris MacNaughton and I'm starting a blog!"
 category: Uncategorized
+blog: true
 ---
 {% include JB/setup %}
 

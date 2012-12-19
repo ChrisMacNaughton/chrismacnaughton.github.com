@@ -4,6 +4,7 @@ title: "Houston's Got More Startups!"
 description: "Houston, Upcoming startup capitol?"
 category: Startups
 tags: []
+blog: true
 ---
 {% include JB/setup %}
 

@@ -4,6 +4,7 @@ title: "Happy Thanksgiving!"
 description: "Happy Thanksgiving!"
 category: Uncategorized
 tags: []
+blog: true
 ---
 {% include JB/setup %}
 
