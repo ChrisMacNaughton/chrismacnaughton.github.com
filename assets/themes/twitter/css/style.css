@@ -5,6 +5,9 @@ html, body {
 .navbar {
   margin-bottom: 0;
 }
+.container-home{
+  background-image:url('/assets/images/creampaper.png');
+}
 .container > footer {
   margin-top: 20px;
 }
@@ -17,6 +20,7 @@ html, body {
 /* The white background content wrapper */
 .content {
   background-color: #fff;
+  background-image:url('/assets/images/cream_dust.png');
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
@@ -85,4 +89,22 @@ html, body {
 .dark-link a:hover{
   color: #2EA2CC;
   text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Droid Serif', Georgia, Times, serif;
+}
+h1 {
+    font-size: 49px;
+    line-height: 65px;
+}
+div, p {
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+}
+p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.page-seperator{
+  background-image:url('/assets/images/cardboard_flat.png');
+  margin-top: 10px;
 }

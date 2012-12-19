@@ -2,5 +2,68 @@
 layout: page
 title: "Projects"
 description: "These are some projects I have worked on"
+group: navigation
+collapse: collapse
 ---
 {% include JB/setup %}
+<div class="accordian" id="projects">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#projects" href="#uploader">
+        <h2>Uploader</h2>
+      </a>
+    </div>
+    <div id="uploader" class="accordian-body collapse">
+      <div class="accordian-inner span11">
+        <p>
+          <a href="http://uploader.chrismacnaughton.com">Uploader</a> makes sending files securely very simple.  The application allows you to upload a file and then encrypts it based on the password that you enter when uploading files and stores it securely in Amazon's S3.
+        </p>
+        <p>
+          When you retrieve the files, the server attempts to decrypt it with your supplied password (on the download page) and then returns it to you!
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#projects" href="#permitme">
+        <h2>PermitMe</h2>
+      </a>
+    </div>
+    <div id="permitme" class="accordian-body collapse">
+      <div class="accordian-inner span11">
+        <p>
+          PermitMe is an application designed to make the permitting process much easier for new businesses.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#projects" href="#controlvc">
+        <h2>ControlVC</h2>
+      </a>
+    </div>
+    <div id="controlvc" class="accordian-body collapse">
+      <div class="accordian-inner span11">
+        <p>
+          ControlVC is an application that allows users to manage many videoconferencing devices through a simple web interface.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#projects" href="#cities">
+        <h2>Cities Index</h2>
+      </a>
+    </div>
+    <div id="cities" class="accordian-body collapse">
+      <div class="accordian-inner span11">
+        <p>
+          The cities index allowed my wife and I to compare cities more effectively to determine what we were looking for in a city and what cities fit the criteria we wanted.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
