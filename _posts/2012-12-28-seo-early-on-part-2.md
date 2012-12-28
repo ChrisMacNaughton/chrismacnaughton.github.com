@@ -9,7 +9,7 @@ tags: [SEO, Startup]
 
 [Part 1][] was a little bit sparse on actual, actionable advice so I thought I'd start this post out with some fairly simple tips that can do wonders for your rankings.
 
-[Part 1]: /blog/2012/12/17/seo-early-on-part-1/
+[Part 1]: /blog/2012/12/17/seo-early-on/
 
 Clean up the HTML
 :Cleaning up your HTML can do wonders for your SEO for the simple reason that search engine spiders will only parse so much of a page so reducing the markup in favor of content is wonderful.
