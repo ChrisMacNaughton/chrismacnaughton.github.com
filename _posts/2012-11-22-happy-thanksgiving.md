@@ -12,7 +12,7 @@ This Thanksgiving I wanted to take the opportunity to talk about what I'm gratef
 
 In the past year my first child was born; Madeline Grace MacNaughton was born on May 3, 2012 and has been a true joy since!
 
-<img src="http://d1d9stta0mx1t8.cloudfront.net/Madeline_glasses.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
+<img src="/assets/images/Madeline_glasses.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
 
 Learning how to care for another human being has been a blast and I've really enjoyed it!  As you can see, Maddy is a cool kid!  She's been a bit of a headache at times (usually very early in the morning) but she's still really fun and I'm so very thankful that she's in my life!
 
