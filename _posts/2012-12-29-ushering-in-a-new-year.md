@@ -6,7 +6,8 @@ category: Development
 tags: []
 ---
 {% include JB/setup %}
-<img src="/assets/images/Maddy_presents.png" alt="Maddy opening one of her presents" style="float: left; margin: 10px; margin-top: 5px;"/>Christmas has come and gone and the New Year is fast approaching.  The New Year is usually a time of reflection for me about what happened in the year before compared what I expected to happen as well as thinking about what might change in the coming year.
+<img src="/assets/images/Maddy_presents.png" alt="Maddy opening one of her presents" style="float: left; margin: 10px; margin-top: 5px;" />
+Christmas has come and gone and the New Year is fast approaching.  The New Year is usually a time of reflection for me about what happened in the year before compared what I expected to happen as well as thinking about what might change in the coming year.
 
 As this year wraps up, there are some major changes coming my way as I look at moving not only jobs, but city and state as well!  [Tiffany][] and I are planning on a move north; not just a little bit further north than we are, but North, as in: we could drive to Canada within a reasonable amount of time!
 

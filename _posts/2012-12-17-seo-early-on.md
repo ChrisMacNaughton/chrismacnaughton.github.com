@@ -22,6 +22,7 @@ People used to say "Build it and they will come"<sup><a href="#1">1</a></sup>, b
 
 As you build relationships with people and have people interested in what you have to say, then <abbr style="text-transform: none" title="Build it and they will come!">that old saying</abbr> becomes more true!  People start finding your content because they're interested in what you're saying, not because you told them about it.  If it's good *enough* though, they will tell others about it(link to it)!
 
-Stay tuned for Part 2!
+Stay tuned for [Part 2][]!
 
 <sup><a id="1">1</a> - <a href="http://www.seomoz.org/blog/8-tips-to-get-domain-diversity-with-the-anchor-text-you-want">SEOMoz</a></sup>
+[Part 2]: /blog/2012/12/28/seo-early-on-part-2/
