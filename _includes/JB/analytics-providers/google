@@ -11,9 +11,3 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-<script src="assets/js/jquery.scrolldepth.min.js"></script>
-<script>
-$(function() {
-  $.scrollDepth();
-});
-</script>
