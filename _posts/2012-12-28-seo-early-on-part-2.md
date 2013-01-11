@@ -26,3 +26,7 @@ Watch somebody use your site!
 [Google]: http://google.com
 
 Hopefully these tips are a bit more usable than the last ones!  If you have any questions or comments, please share them below!
+
+Continue with [Part 3][]!
+
+[Part 3]: /blog/2013/01/11/seo-early-on-part-3/
