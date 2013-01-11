@@ -35,7 +35,7 @@ Usage:
     {% endif %}
   {% endfor %}
   {% if group == "navigation" %}
-    <li><a href="https://github.com/chrismacnaughton">Github</a></li>
+    <li><a href="https://github.com/chrismacnaughton" rel="me">Github</a></li>
   {% endif %}
 {% endif %}
 {% assign pages_list = nil %}
