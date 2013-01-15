@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SEO Early On, Part 3"
-description: ""
+description: "Continuing the series on SEO for young businesses"
 category: SEO
 tags: ["SEO","Startup"]
 ---
