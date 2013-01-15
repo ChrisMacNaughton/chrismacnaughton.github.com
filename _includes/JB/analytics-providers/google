@@ -2,7 +2,6 @@
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
   _gaq.push(['_setSiteSpeedSampleRate',100]);
-  _gaq.push(['_trackEvent', 'User agent', escape(navigator.userAgent) , , , true]);
   _gaq.push(['_trackPageview']);
 
   (function() {
