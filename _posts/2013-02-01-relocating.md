@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Relocating"
+title: "Thoughts About Relocating"
 description: "Relocating is a decision that has come to us gradually"
 category: Development
 tags: [Ruby, Ruby on Rails]
