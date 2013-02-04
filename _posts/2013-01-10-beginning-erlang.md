@@ -5,6 +5,7 @@ tagline: "First Impressions"
 description: "My first impressions with Erlang"
 category: Programming
 tags: [Erlang]
+blog: true
 ---
 {% include JB/setup %}
 

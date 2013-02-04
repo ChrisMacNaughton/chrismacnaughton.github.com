@@ -111,3 +111,9 @@ p {
   background-image:url('/assets/images/cardboard_flat.png');
   margin-top: 10px;
 }
+img {
+  margin: 10px;
+}
+.alignLeft {
+  float: left;
+}

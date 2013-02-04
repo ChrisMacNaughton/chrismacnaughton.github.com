@@ -4,6 +4,7 @@ title: "Thoughts About Relocating"
 description: "Relocating is a decision that has come to us gradually"
 category: Development
 tags: [Ruby, Ruby on Rails]
+blog: true
 ---
 {% include JB/setup %}
 It isn't for everybody but my wife and I decided that it was probably for us several months ago.

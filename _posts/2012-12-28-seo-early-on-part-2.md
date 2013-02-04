@@ -4,6 +4,7 @@ title: "SEO Early On, Part 2"
 description: "SEO is mandatory for businesses of every size!"
 category: SEO
 tags: [SEO, Startup]
+blog: true
 ---
 {% include JB/setup %}
 

@@ -4,6 +4,7 @@ title: "SEO Early On, Part 3"
 description: "Continuing the series on SEO for young businesses"
 category: SEO
 tags: [SEO,Startup]
+blog: true
 ---
 {% include JB/setup %}
 
