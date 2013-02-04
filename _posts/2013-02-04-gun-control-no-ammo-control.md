@@ -2,8 +2,8 @@
 layout: post
 title: "Gun Control? No, Ammo Control"
 description: ""
-category:
-tags: []
+category: Rants
+tags: [rant,guns]
 blog: true
 ---
 {% include JB/setup %}
