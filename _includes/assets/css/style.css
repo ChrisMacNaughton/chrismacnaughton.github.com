@@ -117,3 +117,9 @@ img {
 .alignLeft {
   float: left;
 }
+.disabled{
+  text-decoration: line-through;
+}
+a:hover.disabled{
+  text-decoration: line-through;
+}
