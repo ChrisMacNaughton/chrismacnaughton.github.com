@@ -7,6 +7,26 @@ collapse: collapse
 ---
 {% include JB/setup %}
 <div class="accordian" id="projects">
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#projects" href="#analyticator">
+        <h2>Analyticator</h2>
+      </a>
+    </div>
+    <div id="analyticator" class="accordian-body collapse">
+      <div class="accordian-inner row span11">
+        <p>
+          I built <a href="https://rubygems.org/gems/analyticator">Analyticator</a> because it was almost painful to add Google Analytics event tracking to an application that i was developing because testing meant looking at the requests made when i clicked on something and seeing if the details looked right.
+        </p>
+        <p>
+          While it does currently track events that are sent accurately, it is under active development.  As I find something in Google Analytics that I'd like to track in development, I will add it to Analyticator.
+        </p>
+        <p>
+          For more information and directions for use, check out <a href="https://github.com/ChrisMacNaughton/analyticator">Analyticator on Github</a>.
+      </div>
+    </div>
+  </div>
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#projects" href="#uploader">
