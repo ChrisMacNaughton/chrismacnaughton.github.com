@@ -58,18 +58,20 @@
         var hash = window.location.hash.substring( 1 );
         $('#'+hash).collapse();
       });
+      $('.accordion-toggle').on('click', function(e){
+        _gaq.push(['_trackEvent', 'projects','accordian', e.target.innerHTML])
+      })
     </script>
     {% endif %}
 
     {% include JB/analytics %}
     <script src="//d3vjdq6xagkj7m.cloudfront.net/assets/all.js"></script>
-    <script>
-    $(function() {
-      $.scrollDepth();
-    });
-    $('.accordion-toggle').on('click', function(e){
-      _gaq.push(['_trackEvent', 'projects','accordian', e.target.innerHTML])
-    })
-    </script>
+    {% if page.trackscroll %}
+      <script>
+        $(function() {
+          $.scrollDepth();
+        });
+      </script>
+    {% endif %}
   </body>
 </html>
