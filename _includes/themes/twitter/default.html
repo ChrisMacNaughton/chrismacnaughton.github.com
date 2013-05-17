@@ -67,6 +67,9 @@
     $(function() {
       $.scrollDepth();
     });
+    $('.accordion-toggle').on('click', function(e){
+      _gaq.push(['_trackEvent', 'projects','accordian', e.target.innerHTML])
+    })
     </script>
   </body>
 </html>
