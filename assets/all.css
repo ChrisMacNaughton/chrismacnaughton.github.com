@@ -1,5 +1,6 @@
 ---
 ---
+{% include assets/css/shadowbox.css %}
 {% include assets/css/bootstrap.css %}
 {% include assets/css/style.css %}
 {% include assets/css/fonts.css %}

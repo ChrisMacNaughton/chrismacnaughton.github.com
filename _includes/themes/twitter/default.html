@@ -23,7 +23,11 @@
 <div class="container container-home">
   <div class="content">
   <div class="page-header">
-      <h1><a href="/" class="nostyle">Chris MacNaughton</a>{% if page.title != 'Chris MacNaughton' and page.blog != true%} <small>{{page.title}}</small>{% endif %}</h1>
+      {% if page.title != 'Chris MacNaughton' and page.blog != true%}
+        <h1><a href="/" class="nostyle">Chris MacNaughton</a></h1><small>{{page.title}}</small>
+      {% else %}
+        <h1>{{page.title}}</h1><small><a href="/" class="nostyle">Chris MacNaughton</a></small>
+      {% endif %}
       <div class="pull-right" style="display: inline-block; margin-top: -50px;">
           <ul class="nav nav-pills">
               <li><a href="/">Home</a></li>
@@ -72,6 +76,7 @@
         $(function() {
           $.scrollDepth();
         });
+        Shadowbox.init();
       </script>
     {% endif %}
   </body>
