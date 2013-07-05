@@ -44,8 +44,11 @@ description: "I am Chris MacNaughton, developer extraordinaire!"
     </div>
     <div class="row">
         <div class="row page-header page-seperator">
-            <div class="span8">
+            <div class="span4">
                 <h2 class="">Skills</h2>
+            </div>
+            <div class="span4">
+                <h2 class="">Misc</h2>
             </div>
             <div class="span4">
                 <h2>Also On</h2>
@@ -91,7 +94,7 @@ description: "I am Chris MacNaughton, developer extraordinaire!"
                 </article>
             </div>
             <div class="span4">
-                <h2>Misc.</h2>
+                <h2>Random Skills</h2>
                 <article id="misc-skills">
                     <ul>
                         <li>
@@ -119,11 +122,17 @@ description: "I am Chris MacNaughton, developer extraordinaire!"
                                 Finding a Place to Sleep Anywhere
                             </p>
                         </li>
+                    </ul>
+                </article>
+                <h2>Recent Blog Posts</h2>
+                <article id="recent-blog-posts">
+                    <ul class="unstyled">
+                        {% for post in site.posts limit:5 %}
                         <li>
-                            <p>
-                                Exploring
-                            </p>
+                            <a href="{{ post.url }}/">{{ post.title }}</a>
+                            - <span>{{ post.date | date: '%b %d' }}</span>
                         </li>
+                        {% endfor %}
                     </ul>
                 </article>
             </div>
