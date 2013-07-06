@@ -53,6 +53,7 @@
         document.write(unescape("%3Cscript src='/assets/js/jquery-1.8.3.min.js' type='text/javascript'%3E%3C/script%3E"));
     }
     </script>
+    <script src="/assets/all.js" />
     {% if page.collapse %}
     <script type="text/javascript">
       $(document).ready(function(){
@@ -62,22 +63,24 @@
       $('.accordion-toggle').on('click', function(e){
         _gaq.push(['_trackEvent', 'projects','accordian', e.target.innerHTML])
       })
+      Shadowbox.init({
+        handleOversize: "resize",
+        displayNav:         false,
+        handleUnsupported:  "remove"
+      });
+      {% if page.trackscroll %}
+        $(function() {
+          $.scrollDepth();
+        });
+      {% endif %}
     </script>
     {% endif %}
 
     {% include JB/analytics %}
-    <script src="/assets/all.js"></script>
-    {% if page.trackscroll %}
-      <script>
-        $(function() {
-          $.scrollDepth();
-        });
-        Shadowbox.init({
-          handleOversize: "resize",
-          displayNav:         false,
-          handleUnsupported:  "remove"
-        });
-      </script>
+
+    {% if page.search %}
+      <script src="/assets/js/lunr.min.js"></script>
+      <script src="/search.js"></script>
     {% endif %}
   </body>
 </html>
