@@ -72,7 +72,11 @@
         $(function() {
           $.scrollDepth();
         });
-        Shadowbox.init();
+        Shadowbox.init({
+          handleOversize: "resize",
+          displayNav:         false,
+          handleUnsupported:  "remove"
+        });
       </script>
     {% endif %}
   </body>
