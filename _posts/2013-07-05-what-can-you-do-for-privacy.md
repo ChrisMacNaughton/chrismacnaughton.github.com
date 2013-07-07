@@ -32,11 +32,19 @@ If you're using Windows, you can grab a program like <a href="gpg4win.org">GPG4W
 
 <a name='signing'><h1>Signing</h1></a>
 
+## Message Signing
+
 <img src="/assets/images/signing.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
 
 Signing a document is done by generating a compact, encrypted version of the content you want to sign. After a document is signed, it can be verified that it was signed by the signer's private key with their public key and thusly verify that they did, in fact sign it.
 
 As with everything depending on private keys, if your private key is compromised, your signatures nor your encryption can be trusted so make sure to keep that key private!
+
+## Key Signing
+
+In addition to signing a message to validate that it did come from you, can you also sign somebody else's public key, thereby telling the world that you believe that the signed key belongs to the person using it and that the person using it is not mis-representing themself!
+
+Key signing is an integral part of GnuPG because it allow you to build a web of trust, you can trust other people which allows you to trust people that they trust without having to verify their identity yourself!
 
 <a name='encrypting'><h1>Encrypting</h1></a>
 
