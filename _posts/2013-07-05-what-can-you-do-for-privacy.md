@@ -30,6 +30,8 @@ If you're using Windows, you can grab a program like <a href="gpg4win.org">GPG4W
 
 <p class="muted"><small>*impossible barring quantum computers, 100 years of Moore's law, or better algorithms.</small></p>
 
+If you want a more in depth article, check out [Futureboy!](http://futureboy.us/pgp.html)
+
 <a name='signing'><h1>Signing</h1></a>
 
 ## Message Signing
