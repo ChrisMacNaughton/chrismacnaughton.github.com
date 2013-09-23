@@ -55,29 +55,39 @@
     }
     </script>
     <script src="/assets/all.js" />
-    {% if page.collapse %}
     <script type="text/javascript">
-      $(document).ready(function(){
-        var hash = window.location.hash.substring( 1 );
-        $('#'+hash).collapse();
-      });
-      $('.accordion-toggle').on('click', function(e){
-        _gaq.push(['_trackEvent', 'projects','accordian', e.target.innerHTML])
-      })
-      Shadowbox.init({
-        handleOversize: "resize",
-        displayNav:         false,
-        handleUnsupported:  "remove"
-      });
+      {% if page.collapse %}
+        $(document).ready(function(){
+          var hash = window.location.hash.substring( 1 );
+          $('#'+hash).collapse();
+        });
+        $('.accordion-toggle').on('click', function(e){
+          _gaq.push(['_trackEvent', 'projects','accordian', e.target.innerHTML])
+        })
+        Shadowbox.init({
+          handleOversize: "resize",
+          displayNav:         false,
+          handleUnsupported:  "remove"
+        });
+      {% endif %}
       {% if page.trackscroll %}
         $(function() {
           $.scrollDepth();
         });
       {% endif %}
-    </script>
-    {% endif %}
+      // begin Google Analytics tracking
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
+      _gaq.push(['_setSiteSpeedSampleRate',100]);
+      _gaq.push(['_trackPageview']);
 
-    {% include JB/analytics-providers/google %}
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      //end ga tracking
+    </script>
 
     {% if page.search %}
       <script src="/assets/js/lunr.min.js"></script>
