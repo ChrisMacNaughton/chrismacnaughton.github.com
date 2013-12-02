@@ -18,7 +18,7 @@ Using GnuPG really doesn't have to be hard, there are plugins for all of the maj
 
 ### Windows
 
-If you're using Windows, you can grab a program like <a href="gpg4win.org">GPG4Win</a> which has a <a href="#key-manager">key manager</a> and plugin for Outlook 2003 and 2007. If you're using <a href="https://www.mozilla.org/en/thunderbird">Thunderbird</a> instead of Outlook for your primary email client, you should install the plugin Enigmail to handle PGP signing and encrypting.
+If you're using Windows, you can grab a program like [GPG4Win][gpg4win] which has a <a href="#key-manager">key manager</a> and plugin for Outlook 2003 and 2007. If you're using <a href="https://www.mozilla.org/en/thunderbird">Thunderbird</a> instead of Outlook for your primary email client, you should install the plugin Enigmail to handle PGP signing and encrypting.
 
 ### Mac
 
