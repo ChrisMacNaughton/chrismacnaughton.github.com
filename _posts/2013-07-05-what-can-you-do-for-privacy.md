@@ -32,9 +32,9 @@ If you're using Windows, you can grab a program like [GPG4Win][gpg4win] which ha
 
 If you want a more in depth article, check out [Futureboy!](http://futureboy.us/pgp.html)
 
-<a name='signing'><h1>Signing</h1></a>
+<a name='signing'><h2>Signing</h2></a>
 
-## Message Signing
+### Message Signing
 
 <img src="/assets/images/signing.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
 
@@ -42,13 +42,13 @@ Signing a document is done by generating a compact, encrypted version of the con
 
 As with everything depending on private keys, if your private key is compromised, your signatures nor your encryption can be trusted so make sure to keep that key private!
 
-## Key Signing
+### Key Signing
 
 In addition to signing a message to validate that it did come from you, can you also sign somebody else's public key, thereby telling the world that you believe that the signed key belongs to the person using it and that the person using it is not mis-representing themself!
 
 Key signing is an integral part of GnuPG because it allow you to build a web of trust, you can trust other people which allows you to trust people that they trust without having to verify their identity yourself!
 
-<a name='encrypting'><h1>Encrypting</h1></a>
+<a name='encrypting'><h2>Encrypting</h2></a>
 
 <img src="/assets/images/locking.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
 
@@ -56,7 +56,7 @@ Encrypting a message is generally done in the same way that signing a message is
 
 As long as you have the public key of somebody, you can send them encrypted communication with GnuPG!
 
-<a name='key-manager'><h1>Key Manager</h1></a>
+<a name='key-manager'><h2>Key Manager</h2></a>
 
 A key manager is a graphical program that provides an interface to manage and create your private and public keys. Some of my favorites are [GPGTools][gpgtools] [Keychain Access][keychain] (Mac), [Kleopatra][gpg4win] (Windows), and [Seahorse][seahorse] (Linux). They all allow generating private keys, singing keys (marking the key to say that you have verified its owner), and validating other people's keys.
 

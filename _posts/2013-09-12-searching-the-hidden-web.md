@@ -4,10 +4,11 @@ title: "Searching the Hidden Web"
 description: "I have built a search engine and learned more about Tor in less time than I believe I could have through normal exploration"
 category: Search
 tags: [Tor, Ruby on Rails, Apache Solr, Apache Nutch]
+blog: true
 ---
 {% include JB/setup %}
 
-# Crawling the Deep Web
+## Crawling the Deep Web
 
 I have spent the past month building an index of Tor sites (with a .onion TLD) and building a front end to search them. It is currently called TorSearch (very creative, I know) and is available over Tor at [http://kbhpodhnfxl3clb4.onion][TS]. I have so far indexed over 110,000 pages in the current crawl; my previous crawl was decimated when FreedomHosting went down, apparently they had a very large portion of Tor sites.
 
@@ -28,7 +29,7 @@ I have currently run Nutch crawls using [HBase][HBase] as the data store for wel
 
 One of the things that Nutch supports is to score documents based on the inbound link counts which it then also passes through to Solr allowing you to boost search results by the score field. What this means in practice is that you can score documents by inbound link text, title attribute, body text, and then boost that score by the boost field to get your final ordering, similar to how Google ranks pages.
 
-# Watching the Searches
+## Watching the Searches
 
 Since opening up TorSearch to the public (of Tor users) I have been shocked at times both by how normal some of the searches seem (WikiLeaks) and how odd others are (nercro dog porn). There have been over 13,000 unique queries since I opened up TorSearch with many queries being repeated several hundred times.
 
