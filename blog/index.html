@@ -9,7 +9,7 @@ trackscroll: true
 {% include JB/setup %}
 <div class="row">
   <div class="span10">
-   {% for post in site.posts %}
+   {% for post in paginator.posts %}
 <div class="row">
   <div class="span1">
       <div class="date"><span>{{ post.date | date: '%b %d' }}</span></div>
@@ -23,6 +23,32 @@ trackscroll: true
 </div>
 {% endfor %}
 
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination pagination-centered">
+  {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+  {% else %}
+    <li class="disabled"><a>&laquo;</a></li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li class="active"><a>{{ page }}</a></li>
+    {% elsif page == 1 %}
+      <li><a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+  {% else %}
+    <li class="disabled"><a>&raquo;</a></li>
+  {% endif %}
+</div>
+{% endif %}
   </div>
   <div class="span2">
     <p><a href="/archive.html">Archives</a></p>
