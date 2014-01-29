@@ -18,7 +18,7 @@ On a slightly more technical note than my previous 2 posts ([Part 1][] and [Part
 - [Firefox][]
   : - [Firebug][] is a great add-on for checking your site
 - Anywhere
- : - [Pingdom][] has a great tool for checking page load from various places
+  : - [Pingdom][] has a great tool for checking page load from various places
 
 [Google Chrome]: http://chrome.google.com
 [Safari]: http://www.apple.com/safari/
