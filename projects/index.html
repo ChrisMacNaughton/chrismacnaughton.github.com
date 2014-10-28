@@ -7,7 +7,20 @@ collapse: collapse
 ---
 {% include JB/setup %}
 <div class="accordian" id="projects">
-
+    <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#projects" href="#tor-search">
+        <h2>TorSearch</h2>
+      </a>
+    </div>
+    <div id="tor-search" class="accordian-body collapse">
+      <div class="accordian-inner row span11">
+        <p>
+          I built <a href="https://torsearch.es">TorSearch</a> so that I could learn more about Apache Solr and it became a must larger site than I would have expected and gave me experience with scaling a Rails application with minimal hardware to handle over 14,000 searches per day on 4 fairly small virtual machines.
+        </p>
+      </div>
+    </div>
+  </div>
   <div class="accordion-group">
     <div class="accordion-heading">
       <a class="accordion-toggle" data-toggle="collapse" data-parent="#projects" href="#analyticator">
@@ -71,7 +84,7 @@ collapse: collapse
     <div id="permitme" class="accordian-body collapse">
       <div class="accordian-inner span11">
         <p>
-          <a href="http://www.permitme.co" target="new" rel="author">PermitMe</a> is an application designed to make the permitting process much easier for new businesses.  PermitMe was started at Startup Weekend Houston!
+          <a href="#" class="disabled">PermitMe</a> is an application designed to make the permitting process much easier for new businesses.  PermitMe was started at Startup Weekend Houston!
         </p>
       </div>
     </div>
