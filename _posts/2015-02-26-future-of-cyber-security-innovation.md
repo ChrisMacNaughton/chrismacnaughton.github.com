@@ -2,7 +2,8 @@
 layout: post
 title: "The Future of Cyber Security Innovation"
 description: "The Future of Cyber Security Innovation"
-category: Uncategorized
+category: Cybersecurity, Security
+tags: security
 blog: true
 ---
 {% include JB/setup %}
