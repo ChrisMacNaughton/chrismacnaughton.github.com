@@ -68,12 +68,13 @@
         $('.accordion-toggle').on('click', function(e){
           _gaq.push(['_trackEvent', 'projects','accordian', e.target.innerHTML])
         })
-        Shadowbox.init({
-          handleOversize: "resize",
-          displayNav:         false,
-          handleUnsupported:  "remove"
-        });
+        
       {% endif %}
+      Shadowbox.init({
+        handleOversize: "resize",
+        displayNav:         false,
+        handleUnsupported:  "remove"
+      });
       {% if page.trackscroll %}
         $(function() {
           $.scrollDepth();

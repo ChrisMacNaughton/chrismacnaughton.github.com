@@ -30,6 +30,8 @@ Plan X represents data about a given device with more details in the form of met
 
 The current version of Plan X is the third major revision, and has been built in HTML5 with [D3.js](http://d3js.org) for visualizations. The previous version was built in the Unity game engine but Unity was scrapped to reduce the difficulty of deployment. Despite the fact that the current version has only been under active testing for a couple of months (Since October), the new version is already under active development using open source libraries such as [Ember.js](http://emberjs.com/). Plan X is deployed as a series of Docker containers, such that each service that makes up Plan X (web interface, app store, etc) are individually scalable to improve device utilization.
 
+<a rel="shadowbox" href="/assets/images/plan_x.jpeg"><img src="/assets/images/plan_x.jpeg" width="40%" height="40%" style="float: right; margin: 10px;"/></a>
+
 The network view is a cluster with nodes representing machines attached by their network distance from one another. Additionally, at higher zoom levels, a single node may expand into multiple nodes surrounding a given device containing additional metadata about the particular details or services included with the node.
 
 Plan X is generally a centralized solution; however, it has Plan X Satelites that can be distributed and used remotely with limited internet access and still with with nearly full capability, analogous to a military group deploying with a chest of maps, one may now deploy with a computer and a lot of hard disks of data to deploy a Plan X Satelite. When the Satelite has internet access, it would be able to sync data up and down with the Core to keep data in sync globally.
