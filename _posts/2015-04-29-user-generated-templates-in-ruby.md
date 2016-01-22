@@ -2,7 +2,7 @@
 layout: post
 title: "User Generated Templates in Ruby"
 description: "Using Liquid templates in a ruby application to handle nested, user generated content."
-category: ruby
+category: Ruby
 blog: true
 ---
 # User Generated Templates in Ruby (with Liquid)

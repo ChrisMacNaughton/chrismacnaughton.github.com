@@ -2,7 +2,7 @@
 layout: post
 title: "Adding Actions to a Juju Charm"
 description: "How I added simple actions to a Juju charm and tested it"
-category: juju
+category: Juju
 blog: true
 ---
 # Adding Actions to a Juju Charm
