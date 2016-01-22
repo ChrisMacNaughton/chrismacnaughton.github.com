@@ -29,7 +29,7 @@ set -eux
 
 ceph osd set nodown
 ceph osd set noout
-{% endhilight %}
+{% endhighlight %}
 
 ### Resume
 
@@ -40,7 +40,7 @@ set -eux
 
 ceph osd unset nodown
 ceph osd unset noout
-{% endhilight %}
+{% endhighlight %}
 
 After adding in my two actions' executables, I created `actions.yaml`:
 
@@ -49,7 +49,7 @@ pause:
   description: Pause ceph health operations
 resume:
   description: Resume ceph health operations
-{% endhilight %}
+{% endhighlight %}
 
 At this point, I could deploy the Ceph charm as well as run these actions on the cluster. My work was done, right? Wrong! I needed to have tests validating that these actions work; I'd hate to have somebody accidentally break these features at a later date and not be alerted to the break by their tests!
 
@@ -64,7 +64,7 @@ def test_402_pause_resume_actions(self):
     cmd = "ceph -s"
 
     sentry_unit = self.ceph0_sentry
-{% endhilight %}
+{% endhighlight %}
 
 Now I've got a running test but how do I actually run and verify the actions? After a lot of digging around, I found another Open Stack charm that does test their actions, [Swift-proxy][], that I could model my test on.
 
@@ -77,7 +77,7 @@ Another thing that the `u` offers is the ability to run actions :smile: The code
 {% highlight python %}
 action_id = u.run_action(sentry_unit, 'pause')
 assert u.wait_on_action(action_id), "Pause action failed."
-{% endhilight %}
+{% endhighlight %}
 
 After doing this, the action had been run on the first Ceph unit in the cluster. After running the hook, I could add:
 
@@ -86,7 +86,7 @@ output, code = sentry_unit.run(cmd)
 import re
 if re.match('flags nodown,noout', output) is None:
     amulet.raise_status(amulet.FAIL, msg="Missing noout,nodown")
-{% endhilight %}
+{% endhighlight %}
 
 to run `ceph -s` on the node and check for the expected flags. Testing the resume action is nearly the same, and the whole function is posted below for clarity:
 
@@ -113,4 +113,4 @@ def test_402_pause_resume_actions(self):
     output, code = sentry_unit.run(cmd)
     if re.match('flags nodown,noout', output) is not None:
         amulet.raise_status(amulet.FAIL, msg="Still has noout,nodown")
-{% endhilight %}
+{% endhighlight %}
