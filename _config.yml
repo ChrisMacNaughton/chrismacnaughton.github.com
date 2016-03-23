@@ -1,16 +1,17 @@
 # This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title/
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 gems: [jekyll-paginate]
 
-highlighter: pygments
+highlighter: rouge
 paginate: 5
-paginate_path: 'blog/:num'
+paginate_path: 'blog/:num/'
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
+future: true
 title : Chris MacNaughton
 tagline: Developer
 author :

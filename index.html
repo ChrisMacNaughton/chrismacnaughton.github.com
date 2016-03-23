@@ -125,7 +125,7 @@ description: "I am Chris MacNaughton, developer extraordinaire!"
                     <ul class="unstyled">
                         {% for post in site.posts limit:5 %}
                         <li>
-                            <a href="{{ post.url }}/">{{ post.title }}</a>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
                             - <span>{{ post.date | date: '%b %d' }}</span>
                         </li>
                         {% endfor %}
