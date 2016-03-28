@@ -281,10 +281,11 @@
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     width: 18%;
-    float: left;
+    // float: left;
     height: 100%;
+    display: table-cell;
     background: $canonical-aubergine;
-    position: relative;
+    // position: relative;
     .site-title {
         width: 100%;
         font-size: 18px;

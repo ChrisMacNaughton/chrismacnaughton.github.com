@@ -172,12 +172,13 @@ pre {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     width: 77%;
-    float: right;
+    // float: right;
     margin-right: auto;
     margin-left: auto;
     padding-top: $top-padding;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    display: table-cell;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
