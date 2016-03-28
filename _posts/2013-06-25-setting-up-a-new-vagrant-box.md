@@ -6,7 +6,6 @@ category: Dev-Ops
 tags: [vagrant, ruby, chef]
 blog: true
 ---
-{% include JB/setup %}
 
 [<img src="/assets/images/vagrant-logo.png" width="25%" height="25%" style="float: right; margin: 10px;"/>](http://vagrantup.com)
 

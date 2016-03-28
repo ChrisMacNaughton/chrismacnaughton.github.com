@@ -2,10 +2,9 @@
 layout: post
 title: "User Generated Templates in Ruby"
 description: "Using Liquid templates in a ruby application to handle nested, user generated content."
-category: Ruby
+category: ruby
 blog: true
 ---
-# User Generated Templates in Ruby (with Liquid)
 
 I started a side project recently for hosting many sites from within one application. I decided to use Liquid to allow users to create their own site designs. [Shopify](https://www.shopify.com/) designed [Liquid](http://liquidmarkup.org/) to give users design freedom without compromising server integrity.
 

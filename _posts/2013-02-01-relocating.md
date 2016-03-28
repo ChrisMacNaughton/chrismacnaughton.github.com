@@ -6,7 +6,6 @@ category: Development
 tags: [Ruby, Ruby on Rails]
 blog: true
 ---
-{% include JB/setup %}
 It isn't for everybody but my wife and I decided that it was probably for us several months ago.
 
 We realized that Houston wasn't really a place where we wanted to raise our family or, in fact, live for much longer at all so we began our search.  It started with looking up random cities and places we had heard about but with almost 30,000 cities in the United States we realized that this was going to be an ineffective endeavor.

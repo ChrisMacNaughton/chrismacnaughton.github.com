@@ -6,7 +6,6 @@ description: "What is Houston Startup Weekend"
 category: Startup Weekend
 blog: true
 ---
-{% include JB/setup %}
 
 This weekend I'm planning to attend [Startup Weekend Houston](http://houston.startupweekend.org).  It will be my first and I'm quite excited about it.
 

@@ -5,7 +5,6 @@ description: "How I added simple actions to a Juju charm and tested it"
 category: Juju
 blog: true
 ---
-# Adding Actions to a Juju Charm
 
 I wanted to add a couple of actions to a [Juju][] charm, specifically [Ceph][], and I wanted to be able to test the action to ensure that Ceph received the command and modified its settings.
 

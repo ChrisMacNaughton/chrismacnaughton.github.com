@@ -6,7 +6,6 @@ category: Search
 tags: [Tor, Ruby on Rails, Apache Solr, Apache Nutch]
 blog: true
 ---
-{% include JB/setup %}
 
 ## Crawling the Deep Web
 
