@@ -193,6 +193,7 @@
 .page-content {
     // padding: $spacing-unit 0;
     // position: relative;
+    display: table;
     height: 100%;
 }
 
@@ -280,7 +281,7 @@
     padding-top: $top-padding;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-    width: 18%;
+    width: 23%;
     // float: left;
     height: 100%;
     display: table-cell;
