@@ -1,0 +1,5 @@
+<ul>
+{% for post in posts limit: listing_limit %}
+  <li><a href="{{ post.url }}" class="dark-link">{{ post.title }}</a></li>
+{% endfor %}
+</ul>

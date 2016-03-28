@@ -6,6 +6,7 @@ category: Uncategorized
 tags: []
 blog: true
 ---
+{% include JB/setup %}
 
 This Thanksgiving I wanted to take the opportunity to talk about what I'm grateful for!
 

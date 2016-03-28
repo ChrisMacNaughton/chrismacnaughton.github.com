@@ -6,6 +6,7 @@ category: Startups
 tags: []
 blog: true
 ---
+{% include JB/setup %}
 
 My perception of the startup culture in Houston has been limited to one or two different companies that aren't doing anything interesting until recently.  After attending Houston Startup Weekend I have come to realize that Houston has a thriving startup scene.
 

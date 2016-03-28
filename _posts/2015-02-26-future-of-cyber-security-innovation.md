@@ -6,6 +6,7 @@ category: Cybersecurity, Security
 tags: security
 blog: true
 ---
+{% include JB/setup %}
 
 At an event hosted by the [Christian Science Monitor (Passcode)](http://csmpasscode.com/), [invincea](http://www.invincea.com/), and [Vectra](http://www.vectranetworks.com/), DARPA's Frank Pound gives a live demonstration of Plan X.
 
