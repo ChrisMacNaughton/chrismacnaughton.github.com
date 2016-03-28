@@ -6,7 +6,6 @@ category: Privacy
 tags: [encryption, privacy]
 blog: true
 ---
-{% include JB/setup %}
 
 <a rel="shadowbox" href="/assets/images/privacy.jpg"><img src="/assets/images/privacy.jpg" width="25%" height="25%" style="float: right; margin: 10px;"/></a>
 

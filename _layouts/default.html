@@ -1,6 +1,19 @@
----
-theme :
-  name : twitter
----
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="page-content">
+      <div class="sidebar">
+      {% include nav.html %}
+      </div>
+      <div class="wrapper">
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
+    {% include analytics.html %}
+  </body>
+
+</html>

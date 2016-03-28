@@ -1,158 +1,29 @@
 ---
 layout: default
-title: Who Am I
-description: "I am Chris MacNaughton, developer extraordinaire!"
 ---
-{% include JB/setup %}
 
-    <div class="row">
-        <div class="span2">
-            <img src="/assets/images/me.JPG" alt="Chris MacNaughton and Madeline MacNaughton">
-        </div>
-        <article id="aboutme" class="span10">
-            <h2>Who Am I?</h2>
-            <p>
-                I am a developer specializing in <a href="http://www.ruby-lang.org">Ruby</a>, <a href="http://www.php.net">PHP</a> and <a href="https://developer.mozilla.org/en-US/docs/JavaScript/About_JavaScript">JavaScript</a> with a knowledge domain spanning <a href="http://www.python.org/">Python</a>, <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5">HTML</a>, and <a href="https://developer.mozilla.org/en-US/docs/CSS">CSS</a>. I speak English, periodically practice Spanish, and am beginning to work on Japanese and <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a>.
-            </p>
-            <p>
-                I have a daughter named Madeline and a loving, supportive wife named Tiffany.  I was born and raised in Houston, Texas and have traveled around the world a couple of times!
-            </p>
-        </article>
-    </div>
-    <div class="row">
-        <article id="making" class="span10">
-            <h2>I like making things.</h2>
-            <p>
-                Enjoying making things and wanting to expand on that, I began to expand making things from digital products into physical ones using an <a href="http://arduino.cc">Arduino</a>.  I played with simple robotics and such.  Soon, I hope to have more time to play with electronics!
-            </p>
-            <p>
-                While making real things is fun, most of my experience with making things comes from web development of various sorts, from a simple file uploader/encryptor to a SSH management system for videoconference devices, I've made some fun and complicated things.
-            </p>
-        </article>
-        <div class="span2">
-            <h2>Projects</h2>
-            <ul class="unstyled">
-                <li><a href="projects/#tor-search">TorSearch</a></li>
-                <li><a href="projects/#btsync">BtSync</a></li>
-                <li><a href="projects/#analyticator">Analyticator</a></li>
-                <li><a href="projects/#uploader">Uploader</a></li>
-                <li><a href="projects/#permitme">PermitMe</a></li>
-                <li><a href="projects/#controlvc">Control.VC</a></li>
-                <li><a href="projects/#cities">Cities Index</a></li>
-                <li><a href="projects/#maps">Live Map</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="row page-header page-seperator">
-            <div class="span4">
-                <h2 class="">Skills</h2>
-            </div>
-            <div class="span4">
-                <h2 class="">Misc</h2>
-            </div>
-            <div class="span4">
-                <h2>Also On</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="span4" style="padding-left: 10px;">
-                <h2>Languages <a title="Programming"><i class="icon-info-sign"></i></a></h2>
-                <article id="languages">
-                    <p>Include but not limited to:</p>
-                    <ul>
-                        <li>
-                            <a href="http://www.ruby-lang.org">Ruby</a><a href="https://gemfury.com/f/partner"><img alt="Private Repository" src="//badge.fury.io/fp/gemfury.svg"  style="margin-left: 10px; margin-top: 0px; margin-bottom: 0px;"/></a>
-                            <div class="progress progress-striped active">
-                                <div class="bar" style="width: 90%;"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="http://www.php.net">PHP</a>
-                            <div class="progress progress-striped active">
-                                <div class="bar" style="width: 80%;"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="https://developer.mozilla.org/en-US/docs/JavaScript">Javascript</a>
-                            <div class="progress progress-striped active">
-                                <div class="bar" style="width: 60%;"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="http://www.python.org">Python</a>
-                            <div class="progress progress-striped active">
-                                <div class="bar" style="width: 40%;"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a>
-                            <div class="progress progress-striped active">
-                                <div class="bar" style="width: 10%;"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </article>
-            </div>
-            <div class="span4">
-                <h2>Random Skills</h2>
-                <article id="misc-skills">
-                    <ul>
-                        <li>
-                            <p>
-                                Building Computers
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Legible Prose
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Working From Anywhere
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Online Marketing
-                            </p>
-                        </li>
-                    </ul>
-                </article>
-                <h2>Recent Blog Posts</h2>
-                <article id="recent-blog-posts">
-                    <ul class="unstyled">
-                        {% for post in site.posts limit:5 %}
-                        <li>
-                            <a href="{{ post.url }}">{{ post.title }}</a>
-                            - <span>{{ post.date | date: '%b %d' }}</span>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </article>
-            </div>
-            <div class="span4">
-                <ul class="unstyled">
-                    <li><a rel="author me" href="https://plus.google.com/u/0/115473896138987374983?rel=author" title="Chris MacNaughton on Google+">Google+</a></li>
-                    <li><a rel="author me" href="http://www.linkedin.com/profile/view?id=50279989" title="Chris MacNaughton on LinkedIn">LinkedIn</a></li>
-                    <li><a rel="author me" href="https://facebook.com/chris181m" title="Chris MacNaughton on Facebook">Facebook</a></li>
-                    <li><a href='https://alpha.app.net/chrismacnaughton' rel='me' title="Chris MacNaughton on App.Net">App.Net</a></li>
-                    <li><a rel="author" href="https://youtube.com/nuradu181m" title="Chris MacNaughton on YouTube">YouTube</a></li>
-                    <li><a rel="author" href="http://chrismacnaughton.brandyourself.com/" title="Chris MacNaughton on BrandYourself">BrandYourself</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <h2 class="page-header page-seperator">Random Stuff</h2>
-        <div class="row" id="random">
-            <div class="span8">
-                <article class="span10">
-                    <p>
-                        My wife and I traveled around Europe living out of backpacks.  While we traveled, we found the need to discover a cheaper way to travel and found <a href="http://workaway.info">WorkAway</a>.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </div>
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!--<span class="post-meta" style="float: right">{{post.categories}}</span>-->
+        <header class="post-header">
+          <h1 class="" itemprop="name headline">
+            <a class="post-link post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h1>
+        </header>
+        {{ post.content }}</p>
+        <!-- <p><a href="{{ post.url }}">Read more...</a></p> -->
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% include pagination.html %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

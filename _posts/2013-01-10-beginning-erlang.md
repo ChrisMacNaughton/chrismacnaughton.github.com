@@ -7,7 +7,6 @@ category: Programming
 tags: [Erlang]
 blog: true
 ---
-{% include JB/setup %}
 
 [Erlang][] is my first experience with a strongly functional language. I say strongly functional because I've gotten to see a bit of functional programming in Scala through 7 Languages in 7 Weeks but Scala doesn't have to be functional; Erlang *usually* does.
 

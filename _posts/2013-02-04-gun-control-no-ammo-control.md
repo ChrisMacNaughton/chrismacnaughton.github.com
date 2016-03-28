@@ -6,7 +6,6 @@ category: Rants
 tags: [Rant, Guns]
 blog: true
 ---
-{% include JB/setup %}
 
 I don't usually care enough about guns to have much of an opinion about gun control but all of this talk recently has pushed me to respond.  I'm infuriated that people believe that controlling access to guns will actually reduce gun availability in this age of 3D printers!
 

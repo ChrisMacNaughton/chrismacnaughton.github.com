@@ -6,7 +6,6 @@ category: Videoconferencing
 tags: [SSH, videoconferencing]
 blog: true
 ---
-{% include JB/setup %}
 
 I've spent the last couple of months building an interface to replace Lifesize (and Avaya's) video conference management software because their software relies on Flash, is prohibitively expensive, and has a 120 page deployment guide.
 
