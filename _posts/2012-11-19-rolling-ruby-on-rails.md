@@ -5,6 +5,7 @@ description: "Rewriting a PHP app in Ruby on Rails"
 category: Ruby
 tags: [Ruby, Ruby on Rails]
 blog: true
+comments: true
 ---
 
 Last week I [wrote](/2012/11/13/startup-weekend/) about Startup Weekend and my experience starting [PermitMe](http://permitme.co).

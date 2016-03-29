@@ -5,6 +5,7 @@ description: "The Future of Cyber Security Innovation"
 category: Cybersecurity, Security
 tags: security
 blog: true
+comments: true
 ---
 
 At an event hosted by the [Christian Science Monitor (Passcode)](http://csmpasscode.com/), [invincea](http://www.invincea.com/), and [Vectra](http://www.vectranetworks.com/), DARPA's Frank Pound gives a live demonstration of Plan X.
@@ -29,7 +30,7 @@ Plan X represents data about a given device with more details in the form of met
 
 The current version of Plan X is the third major revision, and has been built in HTML5 with [D3.js](http://d3js.org) for visualizations. The previous version was built in the Unity game engine but Unity was scrapped to reduce the difficulty of deployment. Despite the fact that the current version has only been under active testing for a couple of months (Since October), the new version is already under active development using open source libraries such as [Ember.js](http://emberjs.com/). Plan X is deployed as a series of Docker containers, such that each service that makes up Plan X (web interface, app store, etc) are individually scalable to improve device utilization.
 
-<a rel="shadowbox" href="/assets/images/plan_x.jpeg"><img src="/assets/images/plan_x.jpeg" width="40%" height="40%" style="float: right; margin: 10px;"/></a>
+<a rel="shadowbox" href="/images/plan_x.jpeg"><img src="/images/plan_x.jpeg" width="40%" height="40%" style="float: right; margin: 10px;"/></a>
 
 The network view is a cluster with nodes representing machines attached by their network distance from one another. Additionally, at higher zoom levels, a single node may expand into multiple nodes surrounding a given device containing additional metadata about the particular details or services included with the node.
 

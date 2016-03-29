@@ -4,6 +4,7 @@ title: "Startup Weekend"
 description: "Startup Weekend was a blast!"
 category: Startup Weekend
 blog: true
+comments: true
 ---
 
 A little over a week ago I participated in [Startup Weekend Houston](http://houston.startupweekend.org).

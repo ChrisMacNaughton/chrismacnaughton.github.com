@@ -5,6 +5,7 @@ description: "Continuing the series on SEO for young businesses"
 category: SEO
 tags: [SEO,Startup]
 blog: true
+comments: true
 ---
 
 On a slightly more technical note than my previous 2 posts ([Part 1][] and [Part 2][]) on SEO, page speed is quite important.  There are some great tools for checking on your page speed both locally and from a remote location and debugging any speed issues that you see.

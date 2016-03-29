@@ -5,6 +5,7 @@ description: "I have built a search engine and learned more about Tor in less ti
 category: Search
 tags: [Tor, Ruby on Rails, Apache Solr, Apache Nutch]
 blog: true
+comments: true
 ---
 
 ## Crawling the Deep Web

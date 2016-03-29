@@ -3,6 +3,7 @@ title: To Hide or Not To Hide
 layout: post
 date: 2013-12-02 09:32
 blog: true
+comments: true
 ---
 
 ## Why Use a Hidden Service?

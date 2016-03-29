@@ -1,26 +1,79 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Site wide configuration
 
-# Site settings
-title: Chris' Playground
-email: chris@macnaughton.email
-description: > # this means to ignore newlines until "baseurl:"
-  Chris MacNaughton currently works on the Ecosystem Engineering team at
-  Canonical Ltd, focusing on storage technologies for OpenStack deployments.
-permalink: /blog/:year/:month/:day/:title/
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://chrismacnaughton.com" # the base hostname & protocol for your site
-twitter_username: chrismacn
-github_username:  chris.macnaughton
+title:            Chris' Playground
+locale:           en_US
+url:              
 
-# Build settings
-markdown: kramdown
-# safe: true
 
-gems: ['jekyll-paginate']
-paginate: 5
-paginate_path: 'blog/:num/'
+# Jekyll configuration
+
+permalink:   /blog/:year/:month/:day/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Chris MacNaughton
+  avatar: me.jpg
+  bio: |
+    Chris MacNaughton currently works on the Ecosystem Engineering team at
+    Canonical Ltd, focusing on storage technologies for OpenStack deployments.
+  email: chris@macnaughton.email
+  disqus-shortname: chrismacnaughton
+  twitter: chrismacn
+  facebook: chris181m
+  keybase: chrismacnaughton
+  google:
+    plus: ChrisMacNaughton1
+    analytics: UA-35809231-1
+    verify: 8IAO7pVpsIeL_ckvBKWdDNiNOruQOqRfjsHDZAhz0FM
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: chris.macnaughton
+  stackoverflow: 1527069/iceyec
+  linkedin: chrismacnaughton
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

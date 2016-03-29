@@ -5,6 +5,7 @@ description: "Takeaway: Don't use Offerpop!"
 category: Development
 tags: ['Facebook', 'Rant']
 blog: true
+comments: true
 ---
 
 If you've had any experience with trying to get votes for an entry on [Offerpop](http://www.offerpop.com/), you know just how terrible it is.  If you haven't, I hope that you never do.  If you're thinking about hosting a vote, please find somebody else to host it!

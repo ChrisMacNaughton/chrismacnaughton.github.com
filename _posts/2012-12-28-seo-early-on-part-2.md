@@ -5,6 +5,7 @@ description: "SEO is mandatory for businesses of every size!"
 category: SEO
 tags: [SEO, Startup]
 blog: true
+comments: true
 ---
 
 [Part 1][] was a little bit sparse on actual, actionable advice so I thought I'd start this post out with some fairly simple tips that can do wonders for your rankings.

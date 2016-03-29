@@ -5,11 +5,12 @@ description: ""
 category: Rants
 tags: [Rant, Guns]
 blog: true
+comments: true
 ---
 
 I don't usually care enough about guns to have much of an opinion about gun control but all of this talk recently has pushed me to respond.  I'm infuriated that people believe that controlling access to guns will actually reduce gun availability in this age of 3D printers!
 
-<img src="/assets/images/3dprintedmag.jpg" title="3D Printed Magazine" class="alignLeft" style="width: 150px;" />
+<img src="/images/3dprintedmag.jpg" title="3D Printed Magazine" class="alignLeft" style="width: 150px;" />
 3D printing has come a long way in the last year.  You can now [print your own guns][print] at home!  Maybe if people can print their own guns but not get access to those high ammunition clips we'll all be safe? [Nope][clips]!
 
 [print]: http://www.foxnews.com/tech/2012/12/21/click-print-shoot-guns-made-on-3-d-printers-not-as-farfetched-idea-as-it-sounds/
