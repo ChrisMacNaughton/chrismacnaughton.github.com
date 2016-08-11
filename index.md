@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
+excerpt: "Chris MacNaughton is a software engineer building tools and helping companies"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: sample-image-2.jpg
