@@ -24,16 +24,17 @@ version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
 summary: Prove cross platform rust snaps # 79 char long summary
 description: |
   This is a snap to validate a Rust project building cross architecture
-
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 
 parts:
   hello-rust:
+    # See 'snapcraft plugins'
+    plugin: x-rust
     source: .
 apps:
   hello:
-    command: hello
+command: hello
 ~~~
 
 Snappy is supported on Launchpad, which means that I was able to build a snappy package on Launchpad with specific hardware targets following the guide at [kyrofa's blog](https://kyrofa.com/posts/building-your-snap-on-device-there-s-a-better-way).
