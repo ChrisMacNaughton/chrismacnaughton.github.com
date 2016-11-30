@@ -6,16 +6,16 @@ I hereby claim:
 
   * I am an admin of https://chrismacnaughton.com
   * I am chrismacnaughton (https://keybase.io/chrismacnaughton) on keybase.
-  * I have a public key ASClDyyxPWucAeDXf8tyme2tjTgN6f8O2MR51-C0ARZgbgo
+  * I have a public key ASBKdShPE8oCIuZXSMCc7URrIwc1VePnxIewCncLx8s_wwo
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "eldest_kid": "010170accb4cda98d5e7e580f03d059917a20d64234ccf2ef547793d925bce6e84af0a",
+            "eldest_kid": "01204a75284f13ca0222e65748c09ced446b23073555e3e7c487b00a770bc7cb3fc30a",
             "host": "keybase.io",
-            "kid": "0120a50f2cb13d6b9c01e0d77fcb7299edad8d380de9ff0ed8c479d7e0b40116606e0a",
+            "kid": "01204a75284f13ca0222e65748c09ced446b23073555e3e7c487b00a770bc7cb3fc30a",
             "uid": "166d786e4488d3654915e893dd5c0219",
             "username": "chrismacnaughton"
         },
@@ -28,23 +28,23 @@ To do so, I am signing this object:
     },
     "client": {
         "name": "keybase.io go client",
-        "version": "1.0.14"
+        "version": "1.0.18"
     },
-    "ctime": 1459175610,
+    "ctime": 1480524985,
     "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1459175572,
-        "hash": "27caee99b0bf8ced4745021a59c25be01f9787b309e5aec6662f954d66e18314df3391b06e7627ef14e224016b1b78f41299e8dbcd641484f410ffb5a5872490",
-        "seqno": 423506
+        "ctime": 1480524927,
+        "hash": "d41bc7c90705185e9c0d7215d70466ed33ca2dbefeb169c6ab3c34835f97be66fdb4e8057eec212800d4fcc348ee3ab52ca16d2a35a6d9c57a939ebfbb8c2e04",
+        "seqno": 742052
     },
-    "prev": "fa88d2462c27323e7f9d1220e69081cca61690d900258ad3c6c78b53695e3e8f",
-    "seqno": 10,
+    "prev": "c8e364bdbf7856bb4d60b68630f558b223b3d5da5318e3748232db3b597d0f64",
+    "seqno": 33,
     "tag": "signature"
 }
 
 which yields the signature:
 
-g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpQ8ssT1rnAHg13/LcpntrY04Den/DtjEedfgtAEWYG4Kp3BheWxvYWTFAwV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNzBhY2NiNGNkYTk4ZDVlN2U1ODBmMDNkMDU5OTE3YTIwZDY0MjM0Y2NmMmVmNTQ3NzkzZDkyNWJjZTZlODRhZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTUwZjJjYjEzZDZiOWMwMWUwZDc3ZmNiNzI5OWVkYWQ4ZDM4MGRlOWZmMGVkOGM0NzlkN2UwYjQwMTE2NjA2ZTBhIiwidWlkIjoiMTY2ZDc4NmU0NDg4ZDM2NTQ5MTVlODkzZGQ1YzAyMTkiLCJ1c2VybmFtZSI6ImNocmlzbWFjbmF1Z2h0b24ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNocmlzbWFjbmF1Z2h0b24uY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTQifSwiY3RpbWUiOjE0NTkxNzU2MTAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ1OTE3NTU3MiwiaGFzaCI6IjI3Y2FlZTk5YjBiZjhjZWQ0NzQ1MDIxYTU5YzI1YmUwMWY5Nzg3YjMwOWU1YWVjNjY2MmY5NTRkNjZlMTgzMTRkZjMzOTFiMDZlNzYyN2VmMTRlMjI0MDE2YjFiNzhmNDEyOTllOGRiY2Q2NDE0ODRmNDEwZmZiNWE1ODcyNDkwIiwic2Vxbm8iOjQyMzUwNn0sInByZXYiOiJmYTg4ZDI0NjJjMjczMjNlN2Y5ZDEyMjBlNjkwODFjY2E2MTY5MGQ5MDAyNThhZDNjNmM3OGI1MzY5NWUzZThmIiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEFzhYWH60h5Mq/5hiGP0sGj/HqYoHc7ul3AKh0TA+H7v9AZWuG0yZ3MMFS9Hv+oYWjWx7b8SWM9GOzxu8VUIguoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSnUoTxPKAiLmV0jAnO1EayMHNVXj58SHsAp3C8fLP8MKp3BheWxvYWTFAwV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNGE3NTI4NGYxM2NhMDIyMmU2NTc0OGMwOWNlZDQ0NmIyMzA3MzU1NWUzZTdjNDg3YjAwYTc3MGJjN2NiM2ZjMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGE3NTI4NGYxM2NhMDIyMmU2NTc0OGMwOWNlZDQ0NmIyMzA3MzU1NWUzZTdjNDg3YjAwYTc3MGJjN2NiM2ZjMzBhIiwidWlkIjoiMTY2ZDc4NmU0NDg4ZDM2NTQ5MTVlODkzZGQ1YzAyMTkiLCJ1c2VybmFtZSI6ImNocmlzbWFjbmF1Z2h0b24ifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNocmlzbWFjbmF1Z2h0b24uY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODA1MjQ5ODUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4MDUyNDkyNywiaGFzaCI6ImQ0MWJjN2M5MDcwNTE4NWU5YzBkNzIxNWQ3MDQ2NmVkMzNjYTJkYmVmZWIxNjljNmFiM2MzNDgzNWY5N2JlNjZmZGI0ZTgwNTdlZWMyMTI4MDBkNGZjYzM0OGVlM2FiNTJjYTE2ZDJhMzVhNmQ5YzU3YTkzOWViZmJiOGMyZTA0Iiwic2Vxbm8iOjc0MjA1Mn0sInByZXYiOiJjOGUzNjRiZGJmNzg1NmJiNGQ2MGI2ODYzMGY1NThiMjIzYjNkNWRhNTMxOGUzNzQ4MjMyZGIzYjU5N2QwZjY0Iiwic2Vxbm8iOjMzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQD2EXfPp7RX1/18r8/Pp7X8fCcEU9KKBuqU8Z8MJOPdD4X4KQP6eTNRb20RMqiWm6dZ4YGgGBFsy1foSfHZCAQOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCB/BRcT5+OaXjoMDsBf77LDm+sDUfFf8x4oUi279xkSTqN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -52,4 +52,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/chrismacnaughton
 
 ==================================================================
-
