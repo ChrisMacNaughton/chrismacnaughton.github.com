@@ -9,8 +9,6 @@ comments: true
 redirect_from: /blog/2018/04/20/rust-gitlab-ci/
 ---
 
-## Summary
-
 Setting up Rust CI on Gitlab is a fairly easy task, until you want to actually use it ;-) Throughout my time developing Rust libraries and applications, I've tried over and over to get a good generic CI setup for Rust on Gitlab, and I think that the following example is that!
 
 In addition to running your builds on stable, beta, and nightly, the configuration presented here also runs rustfmt and clippy on the code to help catch style issues and lint your code.
