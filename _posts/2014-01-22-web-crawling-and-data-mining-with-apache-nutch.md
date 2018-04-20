@@ -1,11 +1,11 @@
 ---
 title: Web Crawling and Data Mining with Apache Nutch
-layout: post
+layout: single
 date: 2014-01-22 15:39
-category: Apache Nutch
-tags: [Nutch, Solr, Zookeeper]
+tags: [nutch, solr, zookeeper, search]
 blog: true
 comments: true
+redirect_from: /blog/2014/01/22/web_crawling_and_data_mining_with_apache_nutch/
 ---
 
 [PacktPub][] recently released [Web Crawling and Data Mining with Apache Nutch][nutch-book] and asked that I review the book. I was excited because I've found the Nutch documentation to be spotty and difficult to navigate and hoped that I would learn something new or be able to share a better resource for learning Nutch than digging around the documentation and mailing lists provide.

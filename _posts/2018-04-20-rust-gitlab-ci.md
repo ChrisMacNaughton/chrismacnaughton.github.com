@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Rust CI on Gitlab"
 description: "Using Gitlab CI for effective testing of Rust libraries and binaries"
-category: rust, ci
+tags: [rust, ci]
+category: rust
 blog: true
 comments: true
+redirect_from: /blog/2018/04/20/rust-gitlab-ci/
 ---
 
 ## Summary

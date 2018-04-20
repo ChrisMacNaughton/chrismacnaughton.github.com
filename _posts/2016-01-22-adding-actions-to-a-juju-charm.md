@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Adding Actions to a Juju Charm"
 description: "How I added simple actions to a Juju charm and tested it"
-category: Juju
+category: juju
+tags: [juju, ubuntu]
 blog: true
 comments: true
+redirect_from: /blog/2016/01/22/adding-actions-to-a-juju-charm/
 ---
 
 I wanted to add a couple of actions to a [Juju][] charm, specifically [Ceph][], and I wanted to be able to test the action to ensure that Ceph received the command and modified its settings.

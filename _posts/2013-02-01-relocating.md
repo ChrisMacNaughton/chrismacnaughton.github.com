@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Thoughts About Relocating"
 description: "Relocating is a decision that has come to us gradually"
 category: Development
-tags: [Ruby, Ruby on Rails]
+tags: [ruby, rails]
 blog: true
 comments: true
+redirect_from: /blog/2013/02/01/relocating/
 ---
 It isn't for everybody but my wife and I decided that it was probably for us several months ago.
 

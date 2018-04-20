@@ -1,18 +1,19 @@
 ---
-layout: post
+layout: single
 title: "Rolling Ruby on Rails"
 description: "Rewriting a PHP app in Ruby on Rails"
-category: Ruby
-tags: [Ruby, Ruby on Rails]
+category: ruby
+tags: [ruby, rails]
 blog: true
 comments: true
+redirect_from: /blog/2012/11/19/rolling-ruby-on-rails/
 ---
 
 Last week I [wrote](/2012/11/13/startup-weekend/) about Startup Weekend and my experience starting [PermitMe](http://permitme.co).
 
 It was written entirely in PHP.
 
-##Moving to RoR
+## Moving to RoR
 
 I decided to rebuild the entire application in Ruby on Rails to both practice my Ruby and improve the application as I was looking at rebuilding it anyway to be more object oriented and clean.
 

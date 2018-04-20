@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Houston's Got More Startups!"
 description: "Houston, Upcoming startup capitol?"
 category: Startups
 tags: []
 blog: true
 comments: true
+redirect_from: /blog/2012/11/29/houstons-got-more-startups/
 ---
 
 My perception of the startup culture in Houston has been limited to one or two different companies that aren't doing anything interesting until recently.  After attending Houston Startup Weekend I have come to realize that Houston has a thriving startup scene.

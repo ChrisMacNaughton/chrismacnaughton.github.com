@@ -1,14 +1,14 @@
 ---
-layout: post
+layout: single
 title: "What Can You Do for Privacy?"
 description: ""
-category: Privacy
 tags: [encryption, privacy]
 blog: true
 comments: true
+redirect_from: /blog/2013/07/05/what-can-you-do-for-privacy/
 ---
 
-<a rel="shadowbox" href="/images/privacy.jpg"><img src="/images/privacy.jpg" width="25%" height="25%" style="float: right; margin: 10px;"/></a>
+<a rel="shadowbox" href="/assets/images/privacy.jpg"><img src="/assets/images/privacy.jpg" width="25%" height="25%" style="float: right; margin: 10px;"/></a>
 
 A friend of mine posted this image on Facebook today and it got me to thinking, 'What are some fairly easy things that people can use to keep their data private that I could share?' After thinking about it for a bit, I've come up with a few simle things that you can do to keep personal data private!
 
@@ -36,7 +36,7 @@ If you want a more in depth article, check out [Futureboy!](http://futureboy.us/
 
 ### Message Signing
 
-<img src="/images/signing.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
+<img src="/assets/images/signing.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
 
 Signing a document is done by generating a compact, encrypted version of the content you want to sign. After a document is signed, it can be verified that it was signed by the signer's private key with their public key and thusly verify that they did, in fact sign it.
 
@@ -50,7 +50,7 @@ Key signing is an integral part of GnuPG because it allow you to build a web of 
 
 <a name='encrypting'><h2>Encrypting</h2></a>
 
-<img src="/images/locking.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
+<img src="/assets/images/locking.jpg" width="25%" height="25%" style="float: left; margin: 10px;"/>
 
 Encrypting a message is generally done in the same way that signing a message is done except that it uses your recipient's public key to generate a binary blob that is entirely unreadable without using their private key to decrypt! GPG encrypted messages are also digitally signed so that you can verify that the sender did, in fact, send you the message.
 
@@ -60,7 +60,7 @@ As long as you have the public key of somebody, you can send them encrypted comm
 
 A key manager is a graphical program that provides an interface to manage and create your private and public keys. Some of my favorites are [GPGTools][gpgtools] [Keychain Access][keychain] (Mac), [Kleopatra][gpg4win] (Windows), and [Seahorse][seahorse] (Linux). They all allow generating private keys, singing keys (marking the key to say that you have verified its owner), and validating other people's keys.
 
-<a href="/images/keychain-manager.png" rel="shadowbox"><img src="/images/keychain-manager.png" width="25%" height="25%" style="float: left; margin: 8px; padding: 2px; border: 2px grey solid"/></a>
+<a href="/assets/images/keychain-manager.png" rel="shadowbox"><img src="/assets/images/keychain-manager.png" width="25%" height="25%" style="float: left; margin: 8px; padding: 2px; border: 2px grey solid"/></a>
 
 To the left you can see a screenshot of my key library in [GPGTools][gpgtools]. The bold one is my personal key, it is bold in the client because I have the private key that corresponds to the key. All of the other keys are keys that I have downloaded from keyservers so that I can send email to them or because I wanted to validate their signatures.
 

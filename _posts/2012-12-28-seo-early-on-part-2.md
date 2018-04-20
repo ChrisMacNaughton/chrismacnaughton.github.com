@@ -1,16 +1,17 @@
 ---
-layout: post
+layout: single
 title: "SEO Early On, Part 2"
 description: "SEO is mandatory for businesses of every size!"
 category: SEO
 tags: [SEO, Startup]
 blog: true
 comments: true
+redirect_from: /blog/2012/18/28/seo-early-on-part-2/
 ---
 
 [Part 1][] was a little bit sparse on actual, actionable advice so I thought I'd start this post out with some fairly simple tips that can do wonders for your rankings.
 
-[Part 1]: /blog/2012/12/17/seo-early-on/
+[Part 1]: {% post_url 2012-12-17-seo-early-on %}
 
 Clean up the HTML
 :Cleaning up your HTML can do wonders for your SEO for the simple reason that search engine spiders will only parse so much of a page so reducing the markup in favor of content is wonderful.

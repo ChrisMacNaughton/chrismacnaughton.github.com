@@ -1,9 +1,10 @@
 ---
 title: To Hide or Not To Hide
-layout: post
+layout: single
 date: 2013-12-02 09:32
 blog: true
 comments: true
+redirect_from: /blog/2013/12/02/to-hide-or-not-to-hide/
 ---
 
 ## Why Use a Hidden Service?

@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Adding Authorized Keys to the LXD Default Profile"
 description: "How to add your SSH keys to LXC instances you create by default"
-categories: lxd, linux
+category: Uncategorized
+tags: [lxd, linux, ubuntu]
 blog: true
 comments: true
+redirect_from: /blog/2016/03/23/adding-ssh-authorized-keys-to-lxd-default-profile/
 ---
 
 Adding your key is as simple as:

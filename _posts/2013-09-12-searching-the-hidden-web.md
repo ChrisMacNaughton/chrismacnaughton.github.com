@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Searching the Hidden Web"
 description: "I have built a search engine and learned more about Tor in less time than I believe I could have through normal exploration"
-category: Search
-tags: [Tor, Ruby on Rails, Apache Solr, Apache Nutch]
+category: ruby
+tags: [tor, rails, apache solr, apache nutch]
 blog: true
 comments: true
+redirect_from: /blog/2013/09/12/searching-the-hidden-web/
 ---
 
 ## Crawling the Deep Web

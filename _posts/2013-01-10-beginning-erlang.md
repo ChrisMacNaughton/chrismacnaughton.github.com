@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: single
 title: "Beginning Erlang"
 tagline: "First Impressions"
 description: "My first impressions with Erlang"
-category: Programming
-tags: [Erlang]
+category: erlang
+tags: [erlang]
 blog: true
 comments: true
+redirect_from: /blog/2013/01/10/beginning-erlang/
 ---
 
 [Erlang][] is my first experience with a strongly functional language. I say strongly functional because I've gotten to see a bit of functional programming in Scala through 7 Languages in 7 Weeks but Scala doesn't have to be functional; Erlang *usually* does.

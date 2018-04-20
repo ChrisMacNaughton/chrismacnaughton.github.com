@@ -1,17 +1,18 @@
 ---
-layout: post
+layout: single
 title: "SEO Early On, Part 3"
 description: "Continuing the series on SEO for young businesses"
 category: SEO
 tags: [SEO,Startup]
 blog: true
 comments: true
+redirect_from: /blog/2013/01/11/seo-early-on-part-3/
 ---
 
 On a slightly more technical note than my previous 2 posts ([Part 1][] and [Part 2][]) on SEO, page speed is quite important.  There are some great tools for checking on your page speed both locally and from a remote location and debugging any speed issues that you see.
 
-[Part 1]: /blog/2012/12/17/seo-early-on/
-[Part 2]: /blog/2012/12/28/seo-early-on-part-2/
+[Part 1]: {% post_url 2012-12-17-seo-early-on %})
+[Part 2]: {% post_url 2012-12-28-seo-early-on-part-2 %}
 
 - [Google Chrome][] and [Safari][]
   : - Developer Tools (Accessible via f-12 or the tools menu), Network Tab

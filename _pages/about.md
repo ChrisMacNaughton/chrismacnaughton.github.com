@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: single
 title: About
-tags: [about, Chris MacNaughton]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: false
 share: false
+permalink: /about/
 ---
 
 Chris MacNaughton currently works on the OpenStack team as a Storage Software Developer for Canonical Ltd. He's been using Ubuntu on and off since 2003, and he currently enjoys writing Juju charms, Canonical's new orchestration tool.

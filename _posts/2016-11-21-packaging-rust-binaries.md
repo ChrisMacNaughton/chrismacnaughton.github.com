@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Packaging Rust Binaries"
 description: How to build Rust binaries for multiple architectures for Ubuntu
-categories: ubuntu, rust, snappy
+tags: [rust, packaging, ubuntu]
+category: rust
 blog: true
 comments: true
+redirect_from: /blog/2016/11/21/packaging-rust-binaries/
 ---
 
 I spent a bit of time recently working on getting [Launchpad](https://launchpad.net) to build my [Rust](https://rust-lang.org) binary into something that could be easily installed. To make this search easier, I made a minimal rust project that was basically 'Hello World', but using the log crate; I called the project rust-hello. After considering what my goals were, I knew that I had a couple of options:

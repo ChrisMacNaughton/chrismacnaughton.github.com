@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Offerpop - The Worst Voting App on Facebook"
 description: "Takeaway: Don't use Offerpop!"
 category: Development
-tags: ['Facebook', 'Rant']
+tags: [facebook, rant]
 blog: true
 comments: true
+redirect_from: /blog/2012/11/24/offerpop---the-worst-voting-app-on-facebook/
 ---
 
 If you've had any experience with trying to get votes for an entry on [Offerpop](http://www.offerpop.com/), you know just how terrible it is.  If you haven't, I hope that you never do.  If you're thinking about hosting a vote, please find somebody else to host it!

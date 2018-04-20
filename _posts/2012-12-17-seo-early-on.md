@@ -1,18 +1,19 @@
 ---
-layout: post
+layout: single
 title: "SEO Early On, Part 1"
 description: "While starting a business, there are many things one must think of, from permitting to supply chain management; however, an oft overlooked thing is SEO!"
 category: SEO
 tags: [SEO, Startup]
 blog: true
 comments: true
+redirect_from: /blog/2012/12/17/seo-early-on/
 ---
 
 While starting a business, there are many things one must think of, from permitting to supply chain management; however, an oft overlooked thing is SEO!
 
 SEO, or search engine optimization, is the process of helping people find your site and your products through search engines.  SEO has often gotten a bad rap because of people offering things that simply aren't possible and then disappearing with your money.  Most search marketers aren't like that at all but those that are leave a bad taste in everybody's mouth.
 
-##Where Do I Start?
+## Where Do I Start?
 
 SEO involves getting found.  In a perfect world, search engines would be able to rank your site simply by the quality and accuracy of the content you provide; however, this is not an ideal world.  Search engines rely on other web sites linking to you to rank your site.  The basic idea is that other sites will link to you if they believe you have quality information.  High quality sites tend to link to other high quality sites.
 

@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: single
 title: "Startup Weekend"
 description: "Startup Weekend was a blast!"
-category: Startup Weekend
+category: Startups
 blog: true
 comments: true
+redirect_from: /blog/2012/11/13/startup-weekend/
 ---
 
 A little over a week ago I participated in [Startup Weekend Houston](http://houston.startupweekend.org).

@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Security Scanning Rust Dependencies"
 description: "Simple setup for CI testing with Rust Dependency Scanning"
-category: rust, ci
+tags: [rust, ci, security]
+category: rust
 blog: true
 comments: true
+redirect_from: /blog/2018/04/20/security-scanning-rust-dependencies/
 ---
 
 [Gitlab](https://gitlab.com) has added support for [dependency scanning](https://docs.gitlab.com/ee/user/project/merge_requests/dependency_scanning.html) to their CI system. The recommended method for enabling this support is to enable their CI step that detects the project language and then runs checks based on that. I'm going to propose a better solution!
@@ -45,4 +47,4 @@ dependency_scanning:
 
 Once the `dependency_scanning` section has been added to a project, Gitlab's CI can output security warnings detected in your dependencies directly into the Merge Request status:
 
-<a rel="shadowbox" href="/images/security_scan.png"><img src="/images/security_scan.png" style="margin: 10px;"/></a>
+<a rel="shadowbox" href="/assets/images/security_scan.png"><img src="/assets/images/security_scan.png" style="margin: 10px;"/></a>
