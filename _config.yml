@@ -70,7 +70,7 @@ staticman:
 reCaptcha:
   enabled: true
   siteKey: "6Lfbi1QUAAAAANBEdQxrgJyiGDw9yuK0wUnzzwv6"
-secret: "cUucy6iq6ByyQ03Cy0f/h+zpWlvN9/zcKjT5l81RFEYDAdmvScQ8dRDy76KJnSKASkdAxP6oQip2JBqGpp53vS+BcfHxt+HBrGGiBLr/WtVBUsge8HLKOcr7M6Qr/ErWb2MhHbqHTWHjXnxwjN0AFjmN2t6plCf+CsK4pJYN43Q="
+  secret: "cUucy6iq6ByyQ03Cy0f/h+zpWlvN9/zcKjT5l81RFEYDAdmvScQ8dRDy76KJnSKASkdAxP6oQip2JBqGpp53vS+BcfHxt+HBrGGiBLr/WtVBUsge8HLKOcr7M6Qr/ErWb2MhHbqHTWHjXnxwjN0AFjmN2t6plCf+CsK4pJYN43Q="
 search: true
 search_full_content: true
 # Site owner
