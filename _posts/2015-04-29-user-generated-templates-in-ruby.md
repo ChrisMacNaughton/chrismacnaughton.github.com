@@ -11,7 +11,7 @@ I started a side project recently for hosting many sites from within one applica
 
 In the Rails app, I have a `Theme` and a `Template` model. A theme has many templates, and templates contain the Liquid markup in a `content` attribute. A theme has a primary template. To render a theme, we use `liquid_template = Liquid::Template.parse(primary_template.content)` to parse the Liquid content. This call is cacheable and so it is in the app.
 
-After we parse the primary template, we render it with `liquid_template.render(options, registers: {file_system: LiquidTemplateSystem.new(self)})`. The LiquidTemplateSystem is a class I wrote to handle the nested template functionality. The goal is to call `{{% include 'subtemplate' %}} inside one template to render another template's content.
+After we parse the primary template, we render it with `liquid_template.render(options, registers: {file_system: LiquidTemplateSystem.new(self)})`. The LiquidTemplateSystem is a class I wrote to handle the nested template functionality. The goal is to call `{% raw %}{{% include 'subtemplate' %}}{% endraw %}` inside one template to render another template's content.
 
 {% highlight ruby linenos %}
 class LiquidTemplateSystem
