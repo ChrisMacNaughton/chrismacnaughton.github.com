@@ -2,7 +2,6 @@
 layout: single
 title: "Thoughts About Relocating"
 description: "Relocating is a decision that has come to us gradually"
-category: Development
 tags: [ruby, rails]
 blog: true
 comments: true

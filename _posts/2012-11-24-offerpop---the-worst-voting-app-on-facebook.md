@@ -2,7 +2,6 @@
 layout: single
 title: "Offerpop - The Worst Voting App on Facebook"
 description: "Takeaway: Don't use Offerpop!"
-category: Development
 tags: [facebook, rant]
 blog: true
 comments: true

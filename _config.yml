@@ -46,6 +46,15 @@ titlecase: true
 paginate: 15 # amount of posts to show
 paginate_path: /page:num/
 
+minimal_mistakes_skin: air
+repository: "ChrisMacNaughton/chrismacnaughton.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider: "staticman_v2"
+
+staticman:
+  branch: "master"
+search: true
+search_full_content: true
 # Site owner
 author:
   name: Chris MacNaughton
@@ -54,7 +63,6 @@ author:
     Chris MacNaughton currently works on the Ecosystem Engineering team at
     Canonical Ltd, focusing on storage technologies for OpenStack deployments.
   email: chris@macnaughton.email
-  disqus-shortname: chrismacnaughton
   twitter: chrismacn
   facebook: chris181m
   keybase: chrismacnaughton
@@ -119,3 +127,5 @@ compress_html:
     envs: development  # disable compression in dev environment
 
 breadcrumbs: true
+
+timezone: Europe/Amsterdam
