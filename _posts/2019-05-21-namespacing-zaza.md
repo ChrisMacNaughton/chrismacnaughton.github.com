@@ -12,7 +12,7 @@ TLDR: Almost[^1] all of the actual charm tests have been removed from Zaza and m
 
 [zaza-openstack-tests]: https://github.com/openstack-charmers/zaza-openstack-tests.git
 
-Historically, [Zaza] has contained a fairly strong legacy showing it's roots in the OpenStack Charms team, as we developed a testing framework to fit our needs. As Zaza has matured, it has become possible for it to be much more broadly useful; however, the OpenStack legacy means that there are a lot of [OpenStack specific bits in the core library][OpenStack]! For some time now, it has been one of my goals to take advantage of features that Zaza has grown to split the test framework and the OpenStack Charms test implementations into separate libraries, and have recently done most of that work!
+Historically, [Zaza] has contained a fairly strong legacy showing it's roots in the OpenStack Charms team, as we developed a testing framework to fit our needs. As Zaza has matured, it has become possible for it to be much more broadly useful; however, the OpenStack legacy means that there are a lot of [OpenStack specific bits in the core library][OpenStack]! For some time now, it has been one of our goals to take advantage of features that Zaza has grown to split the test framework and the OpenStack Charms test implementations into separate libraries, and we have recently done most of that work!
 
 [Zaza]: https://github.com/openstack-charmers/zaza.git
 [OpenStack]: https://github.com/openstack-charmers/zaza/tree/d4faa3e30ade9d8285aad8e132045417d85a5c9d/zaza/charm_tests
@@ -21,7 +21,7 @@ Historically, [Zaza] has contained a fairly strong legacy showing it's roots in 
 
 As a part of this work to split out the OpenStack specific tests, we decided to remodel Zaza with a nice namespacing. There are now only a couple of root targets in the Zaza package, `zaza.charm_lifecycle`, `zaza.charm_tests`, `zaza.utilities`, `zaza.controller`, and `zaza.model`. This core package should stay fairly stable at this point.
 
-What this reworking allows, if they wish, is for other projects to namespace their tests inside the `zaza` namespace as well. For example, I could write an Elk Stack series of tests, which may be generally useful to the different components. I could then create my `zaza.elk` package, and embed all of my tests in there! This would allow you to share your common tests as a normal Python package and reference your tests in the `tests.yaml` within the zaza namespace, such as:
+What this reworking allows is for other projects, if they wish, to namespace their tests inside the `zaza` namespace as well. For example, I could write an Elk Stack series of tests, which may be generally useful to the different components. I could then create my `zaza.elk` package, and embed all of my tests in there! This would allow you to share your common tests as a normal Python package and reference your tests in the `tests.yaml` within the zaza namespace, such as:
 
 ~~~yaml
 tests:
