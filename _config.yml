@@ -84,8 +84,7 @@ author:
   name: Chris MacNaughton
   # avatar: assets/images/me.jpg
   bio: |
-    Chris MacNaughton currently works on the Ecosystem Engineering team at
-    Canonical Ltd, focusing on storage technologies for OpenStack deployments.
+    Chris MacNaughton currently works on the OpenStack Engineering team at Canonical Ltd, focused on increasing testing through functional and unit test improvements, as well as novel hypervisors (Nova LXD) and distributed storage (Ceph and Gluster).
   email: chris@macnaughton.email
   twitter: chrismacn
   facebook: chris181m
