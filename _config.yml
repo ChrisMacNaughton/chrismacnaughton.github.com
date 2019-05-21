@@ -82,7 +82,7 @@ search_full_content: true
 # Site owner
 author:
   name: Chris MacNaughton
-  avatar: assets/images/me.jpg
+  # avatar: assets/images/me.jpg
   bio: |
     Chris MacNaughton currently works on the Ecosystem Engineering team at
     Canonical Ltd, focusing on storage technologies for OpenStack deployments.
