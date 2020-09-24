@@ -2,6 +2,8 @@
 main:
 - title: About
   url: /about/
+- title: Supporters
+  url: /thanks/
 
 # - title: Blog
 #   url: /blog/
