@@ -30,8 +30,8 @@ The best way to consume this `Context` is to configure a resource map and add it
 ```python
 resource_map = {
     '/path/to/config/file': {
-        services2: ['my-service-name'],
-        contexts: [HostInfoContext()],
+        'services': ['my-service-name'],
+        'contexts': [HostInfoContext()],
     }
 }
 
@@ -104,3 +104,22 @@ Looking at the above snippet, the `__init__` function sets up some variables but
 When the previous example calls `OSConfigRenderer().write_all()`, the `OSConfigRenderer` checks for `missing_data` in addition to missing or incomplete relations.
 
 If we expand on this concept a bit, it's not unreasonable to assert that a Context could ensure that necessary packages are installed, or could set their own relation data!
+
+To explore this idea, I'll be writing a [Nodepool charm](https://zuul-ci.org/docs/zuul/howtos/nodepool_install.html) in this style!
+
+To start, I'll create a directory for the charm: `mkdir nodepool && cd nodepool`.
+
+In that directory, we'll create a super basic structure for the charm:
+
+```
+.
+├── config.yaml
+├── dispatch
+├── lib
+│   ├── context.py
+│   └── __init__.py
+├── metadata.yaml
+└── tox.ini
+```
+
+The `dispatch` file listed above is a new Juju feature recently added that will be called for every hook execution, rather than depending on executable hooks in a `hooks` directory.
