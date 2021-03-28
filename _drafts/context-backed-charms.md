@@ -118,12 +118,17 @@ In that directory, we'll create a super basic structure for the charm:
 ├── dispatch
 ├── lib
 │   ├── __init__.py
-│   └── context.py
+│   ├── charmhelpers (*)
+│   ├── context_charm.py
+│   └── contexts.py
 ├── metadata.yaml
 ├── templates
 │   └── nodepool.yaml
 └── tox.ini
 ```
 
-The `dispatch` file listed above is a new Juju feature recently added that will be called for every hook execution, rather than depending on executable hooks in a `hooks` directory.
+A couple of things to call out in the above directory structure:
+
+* We've initialized a git submodule in `lib` with [charmhelpers](https://github.com/juju/charm-helpers).
+* The `dispatch` file listed above is a new Juju feature recently added that will be called for every hook execution, rather than depending on executable hooks in a `hooks` directory.
 
