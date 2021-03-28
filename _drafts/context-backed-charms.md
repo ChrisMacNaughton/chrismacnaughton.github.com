@@ -113,13 +113,17 @@ In that directory, we'll create a super basic structure for the charm:
 
 ```
 .
+├── README.md
 ├── config.yaml
 ├── dispatch
 ├── lib
-│   ├── context.py
-│   └── __init__.py
+│   ├── __init__.py
+│   └── context.py
 ├── metadata.yaml
+├── templates
+│   └── nodepool.yaml
 └── tox.ini
 ```
 
 The `dispatch` file listed above is a new Juju feature recently added that will be called for every hook execution, rather than depending on executable hooks in a `hooks` directory.
+
