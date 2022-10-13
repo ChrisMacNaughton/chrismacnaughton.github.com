@@ -47,10 +47,7 @@ paginate: 15 # amount of posts to show
 paginate_path: /page:num/
 
 analytics:
-  provider: "google" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id: UA-35809231-1
-    anonymize_ip: true # true, false (default)
+  provider: "custom" # false (default), "google", "google-universal", "custom"
 
 minimal_mistakes_skin: air
 repository: "ChrisMacNaughton/chrismacnaughton.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
