@@ -19,7 +19,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-remote_theme: "mmistakes/minimal-mistakes@d4b4c890db45fbbf25b69fbc849ab49c2dc895f1"
+remote_theme: "mmistakes/minimal-mistakes@8a67ce8e41ec850f2d7c373aa47739b2abfee6f1"
 
 kramdown:
   auto_ids: true
@@ -108,6 +108,10 @@ author:
   weibo: #username
   flickr: #username
   codepen: #username
+  links:
+  - label: "Mastodon"
+    icon: "fab fa-fw fa-mastodon"
+    url: "https://ichidan.io/@chris"
 
 include: ["_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
