@@ -82,7 +82,10 @@ author:
   name: Chris MacNaughton
   # avatar: assets/images/me.jpg
   bio: |
-    Chris MacNaughton currently works on the OpenStack Engineering team at Canonical Ltd, focused on increasing testing through functional and unit test improvements, as well as novel hypervisors (Nova LXD) and distributed storage (Ceph and Gluster).
+    Chris MacNaughton currently works at Lambda, working on public cloud and
+    focusing on automated testing and storage. Previousle, he worked at
+    Canonical, leading the Ceph Engineering team and focusing on improving
+    testing as well as making Ceph easier to deploy and consume.
   email: chris@macnaughton.email
   twitter: chrismacn
   facebook: chris181m
