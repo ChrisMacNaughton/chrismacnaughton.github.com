@@ -82,10 +82,11 @@ author:
   name: Chris MacNaughton
   # avatar: assets/images/me.jpg
   bio: |
-    Chris MacNaughton currently works at Lambda, working on public cloud and
-    focusing on automated testing and storage. Previousle, he worked at
-    Canonical, leading the Ceph Engineering team and focusing on improving
-    testing as well as making Ceph easier to deploy and consume.
+    Chris MacNaughton currently works at the San Fransisco Compute Company.
+    Previously, he worked at Lambda, working on public cloud and focusing on
+    automated testing and storage; and at Canonical, leading the Ceph
+    Engineering team and focusing on improving testing as well as making Ceph
+    easier to deploy and consume.
   email: chris@macnaughton.email
   twitter: chrismacn
   facebook: chris181m
@@ -112,10 +113,10 @@ author:
   weibo: #username
   flickr: #username
   codepen: #username
-  links:
-  - label: "Mastodon"
-    icon: "fab fa-fw fa-mastodon"
-    url: "https://ichidan.io/@chris"
+  # links:
+  # - label: "Mastodon"
+  #   icon: "fab fa-fw fa-mastodon"
+  #   url: "https://ichidan.io/@chris"
 
 include: ["_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
